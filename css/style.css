@@ -20,7 +20,9 @@ p {
 .selected-text {
   color: #fb7413;
   background-color: #252d37;
-  padding: 4px;
+  padding: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
   border-radius: 20px;
   margin-top: 20px;
 }

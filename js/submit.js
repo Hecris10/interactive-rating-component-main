@@ -9,23 +9,29 @@ function submit(){
 
     var img = document.createElement('img');
     img.setAttribute('src','./images/illustration-thank-you.svg')
-    container.appendChild(img);
-
+    
     var selectedText = "You selected " + rate + " out of 5";
     var text = document.createElement('p');
     text.textContent = selectedText;
     text.setAttribute("class","selected-text");
-    container.appendChild(text);
+    
 
     var thankYou = document.createElement("h1");
     thankYou.textContent = 'Thank You!';
-    thankYou.setAttribute("class","title");
-    container.appendChild(thankYou);
+   
+    
     
     var appreciateText = document.createElement("p");
     appreciateText.textContent = "We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!";
     appreciateText.setAttribute("class",'appreciateText');
     container.appendChild(appreciateText);  
+
+    container.appendChild(img);
+    container.appendChild(text);
+    container.appendChild(thankYou);
+    thankYou.setAttribute("class","title");
+
+
 }
 
 function removeElements(){
