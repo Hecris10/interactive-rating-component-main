@@ -1,0 +1,113 @@
+@import "./partials/colors";
+@import "./partials/typography";
+@import "./partials/submit";
+
+body{
+    background-color: black;
+}
+main{
+ 
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: $color-very-dark-blue;
+    max-width: 370px;
+    padding: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    .head{
+        display: block;
+    }
+
+    .container-rate{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    button{
+        margin-top: 10px;
+        align-content: center;
+        width: 310px;
+        border-radius: 40px;
+        font-size: 15px;
+        padding: 10px;
+        background-color: $color-orange;
+        color: $color-white;
+        border: none;
+        &:hover{
+            background-color: $color-white;
+            color: $color-orange;
+            cursor: pointer;
+        
+        }
+    }
+}
+
+.head{
+    img{
+        width: 45px;
+        padding: 10px;
+        background-color: $color-dark-blue;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        
+    }
+    h1{
+        margin-bottom: 10px;
+    }
+}
+
+.rate{
+        width: 45px;
+        height: 45px;
+        padding: 10px;
+        align-items: center;
+        align-content: center;
+        margin: 10px;
+        margin-top: 25px;
+        background-color: $color-dark-blue;
+        color: $color-white;
+        text-align: center;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        &:hover{
+            background-color: $color-orange;
+        }
+        &:active, &:focus{
+            background-color: $color-light-grey;
+        }
+
+    }
+
+
+
+.rateClick{
+    background-color: $color-light-grey;
+    &:hover{
+        background-color: $color-light-grey;
+    }
+}
+
+////////Footer
+.attribution{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: $color-white;
+    p{
+        text-align: center;
+    }
+}
