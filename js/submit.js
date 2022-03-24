@@ -2,7 +2,7 @@ function submit(){
     if(rate!=0){
         console.log("teste");
         removeElements();
-    }
+   
     
     var container = document.querySelector(".container");
    
@@ -30,7 +30,7 @@ function submit(){
     container.appendChild(text);
     container.appendChild(thankYou);
     thankYou.setAttribute("class","title");
-
+    }
 
 }
 
