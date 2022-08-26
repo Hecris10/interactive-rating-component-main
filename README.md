@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repository](https://www.github.com/hecris10)
-- Live Site URL: [https://github.com/Hecris10/interactive-rating-component-main](https://github.com/Hecris10/interactive-rating-component-main)
+- Solution URL: [Github Repository]https://github.com/Hecris10/interactive-rating-component-main)
+- Live Site URL: [Go Live!](https://github.com/Hecris10/interactive-rating-component-main)
 
 ## My process
 
